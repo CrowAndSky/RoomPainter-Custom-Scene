@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="site.css">	
+	<title>Room Chameleon - Responsive</title>
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body class="loadingApp displayLoading mode-mask">
+
+<section id="loadingOverlay">
+	<div class="loading">
+		<div class="media">
+			<p>Please wait as we mix some colors...</p>
+			<img src="./images/S-Wlogo-small.gif" height="134" width="70" />
+		</div>
+	    <!-- We make this div spin -->
+	    <div class="spinner">
+	        <!-- Mask of the quarter of circle -->
+	        <div class="mask">
+	            <!-- Inner masked circle -->
+	            <div class="maskedCircle"></div>
+	        </div>
+	    </div>
+	</div>
+</section>
+
+<section id="swatches">
+	<div style="background-color:#90A6BE" draggable="true" data-row_id="0" data-column_id="0"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#2A426A" draggable="true" data-row_id="0" data-column_id="1"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#DB843C" draggable="true" data-row_id="0" data-column_id="2"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#8C7A41" draggable="true" data-row_id="0" data-column_id="3"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#EDD779" draggable="true" data-row_id="0" data-column_id="4"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#BE4931" draggable="true" data-row_id="0" data-column_id="5"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#FBB07D" draggable="true" data-row_id="0" data-column_id="6"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#8CBF3E" draggable="true" data-row_id="0" data-column_id="7"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#65BAAD" draggable="true" data-row_id="0" data-column_id="8"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#D1CEBD" draggable="true" data-row_id="0" data-column_id="9"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#2F3F37" draggable="true" data-row_id="1" data-column_id="0"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#A9593A" draggable="true" data-row_id="1" data-column_id="1"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#EDD779" draggable="true" data-row_id="1" data-column_id="2"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#8CBF3E" draggable="true" data-row_id="1" data-column_id="3"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#9C8F76" draggable="true" data-row_id="1" data-column_id="4"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#e3ddd6" draggable="true" data-row_id="1" data-column_id="5"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#d7493e" draggable="true" data-row_id="1" data-column_id="6"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#b9af5b" draggable="true" data-row_id="1" data-column_id="7"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#a6a99c" draggable="true" data-row_id="1" data-column_id="8"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#555c64" draggable="true" data-row_id="1" data-column_id="9"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#ebcfcb" draggable="true" data-row_id="2" data-column_id="0"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#b9af5b" draggable="true" data-row_id="2" data-column_id="1"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#3b363e" draggable="true" data-row_id="2" data-column_id="2"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#774642" draggable="true" data-row_id="2" data-column_id="3"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#c8e1e6" draggable="true" data-row_id="2" data-column_id="4"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#eff0ec" draggable="true" data-row_id="2" data-column_id="5"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#8ec800" draggable="true" data-row_id="2" data-column_id="6"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#7e8690" draggable="true" data-row_id="2" data-column_id="7"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#44aac2" draggable="true" data-row_id="2" data-column_id="8"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#3b363e" draggable="true" data-row_id="2" data-column_id="9"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#90b0ad" draggable="true" data-row_id="0" data-column_id="0"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#aa8f52" draggable="true" data-row_id="3" data-column_id="1"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#a786a0" draggable="true" data-row_id="3" data-column_id="2"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#cd2e4d" draggable="true" data-row_id="3" data-column_id="3"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#324038" draggable="true" data-row_id="3" data-column_id="4"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#cc8f84" draggable="true" data-row_id="3" data-column_id="5"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#d3c60f" draggable="true" data-row_id="3" data-column_id="6"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#1a3d61" draggable="true" data-row_id="3" data-column_id="7"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#453e41" draggable="true" data-row_id="3" data-column_id="8"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#91754d" draggable="true" data-row_id="3" data-column_id="9"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#b4a2b7" draggable="true" data-row_id="0" data-column_id="0"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#908c85" draggable="true" data-row_id="4" data-column_id="1"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#bc9c9e" draggable="true" data-row_id="4" data-column_id="2"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#91754d" draggable="true" data-row_id="4" data-column_id="3"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#4e4247" draggable="true" data-row_id="4" data-column_id="4"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#35468a" draggable="true" data-row_id="4" data-column_id="5"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#b93c7f" draggable="true" data-row_id="4" data-column_id="6"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#90A6BE" draggable="true" data-row_id="4" data-column_id="7"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#2A426A" draggable="true" data-row_id="4" data-column_id="8"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#DB843C" draggable="true" data-row_id="4" data-column_id="9"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#8C7A41" draggable="true" data-row_id="0" data-column_id="0"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#EDD779" draggable="true" data-row_id="5" data-column_id="1"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#BE4931" draggable="true" data-row_id="5" data-column_id="2"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#FBB07D" draggable="true" data-row_id="5" data-column_id="3"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#8CBF3E" draggable="true" data-row_id="5" data-column_id="4"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#65BAAD" draggable="true" data-row_id="5" data-column_id="5"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#D1CEBD" draggable="true" data-row_id="5" data-column_id="6"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#2F3F37" draggable="true" data-row_id="5" data-column_id="7"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#A9593A" draggable="true" data-row_id="5" data-column_id="8"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#EDD779" draggable="true" data-row_id="5" data-column_id="9"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#8CBF3E" draggable="true" data-row_id="6" data-column_id="0"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#9C8F76" draggable="true" data-row_id="6" data-column_id="1"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#e3ddd6" draggable="true" data-row_id="6" data-column_id="2"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#d7493e" draggable="true" data-row_id="6" data-column_id="3"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#b9af5b" draggable="true" data-row_id="6" data-column_id="4"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#a6a99c" draggable="true" data-row_id="6" data-column_id="5"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#555c64" draggable="true" data-row_id="6" data-column_id="6"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#ebcfcb" draggable="true" data-row_id="6" data-column_id="7"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#b9af5b" draggable="true" data-row_id="6" data-column_id="8"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#3b363e" draggable="true" data-row_id="6" data-column_id="9"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#774642" draggable="true" data-row_id="0" data-column_id="0"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#c8e1e6" draggable="true" data-row_id="7" data-column_id="1"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#eff0ec" draggable="true" data-row_id="7" data-column_id="2"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#7e8690" draggable="true" data-row_id="7" data-column_id="3"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#44aac2" draggable="true" data-row_id="7" data-column_id="4"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#3b363e" draggable="true" data-row_id="7" data-column_id="5"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#90b0ad" draggable="true" data-row_id="7" data-column_id="6"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#aa8f52" draggable="true" data-row_id="7" data-column_id="7"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#a786a0" draggable="true" data-row_id="7" data-column_id="8"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div style="background-color:#cd2e4d" draggable="true" data-row_id="7" data-column_id="9"><img src="./images/placeholder.png" draggable="true" /></div>
+	<div id="masking-UI">
+		<a href="#" id="ctrl-mark-line">Add Straight Edges</a>
+		<a href="#" id="ctrl-mark-free">Add Freehand Edges</a>
+		<a href="#" id="ctrl-mark-erase">Erase Edges</a>
+		<a href="#" id="ctrl-mark-int">Mark Interior</a>
+		<a href="#" id="ctrl-mask-done">Complete Mask</a>
+	</div>
+</section>
+
+<section id="roomScene">
+	<img src="./images/room-surfaces/livingroomD-3.jpg" id="imgRoom" />
+	<div id="canvasWrapper">
+		<canvas id="can-working"></canvas>
+		<canvas id="can-render" class="can-render"></canvas>
+	</div>
+	<!-- <div id="controls">
+		<a href="#" id="mode-tint">Tint Mode</a>
+	</div> -->
+
+</section>
+
+<script src="jquery2.js" type="text/javascript"></script>
+<script src="modernizr-touch-media.js" type="text/javascript"></script>
+<script src="hammer.js" type="text/javascript"></script>
+<script src="jquery.hammer.js" type="text/javascript"></script>
+<script src="underscore.js" type="text/javascript"></script>
+<script src="tintr.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+
+$(window).load(function() {
+	initApp();
+});
+
+</script>
+
+</body>
+</html>
